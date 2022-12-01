@@ -64,7 +64,7 @@ number2 = int(input("Please enter another number"))
 
 if number1 > number2:
     print("The first number is greater than the second")
-elif nmuber1 = number2:
+elif number1 == number2:
     print("The numbers are equal")
 else:
     print("The second number is greater than the first")
@@ -74,7 +74,7 @@ else:
 # DBTITLE 1,Born in a leap year?
 year = int(input("what year were you born"))
 
-if year%4 = 0:
+if year%4 == 0:
     print("You were born in a leap year")
 else:
     print("You were not born in a leap year")
@@ -82,6 +82,10 @@ else:
 # COMMAND ----------
 
 # DBTITLE 1,Nesting
+x = 1
+y = 0
+
+
 if x == 1:
     if y == 1:
         print("x is 1")
@@ -90,7 +94,7 @@ if x == 1:
         print("x is 1")
         print("y is something else")
 else:
-    print("x is something else') 
+    print("x is something else") 
 
 # COMMAND ----------
 
@@ -102,7 +106,7 @@ elif x == 1:
     print("x is 1")
     print("y is something else")
 else:
-    print(“x is something else”) 
+    print("x is something else") 
 
 # COMMAND ----------
 
@@ -111,14 +115,14 @@ else:
 price = 0
 
 #get age of person
-year = int(input("please enter age")
+year = int(input("please enter age"))
 
 #check if they have a discount card
 card = input("do you have a discount card?")
 
 if age < 65:
   if age > 18:
-    if card == "y"
+    if card == "y":
       price = 2.5
     else:
       price = 5
@@ -127,7 +131,7 @@ if age < 65:
 else:
   price = 0
   
-print("The price for your swim is: £" + price) 
+print("The price for your swim is: £", price) 
 
 # COMMAND ----------
 
@@ -136,7 +140,7 @@ print("The price for your swim is: £" + price)
 price = 0
 
 #get age of person
-year = int(input("please enter age")
+year = int(input("please enter age"))
 
 #check if they have a discount card
 card = input("do you have a discount card?")
@@ -151,4 +155,4 @@ elif card == "y":
 else:
   price = 5.00
   
-print("The price for your swim is: £" + price)
+print("The price for your swim is: £", price)
