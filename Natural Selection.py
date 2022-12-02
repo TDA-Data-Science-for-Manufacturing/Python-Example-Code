@@ -44,7 +44,7 @@ else:
 
 # COMMAND ----------
 
-# DBTITLE 1,if-then-else
+# DBTITLE 1,if-then-elif-else
 age = int(input("enter your age"))
 
 if age > 18:
