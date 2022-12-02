@@ -73,3 +73,74 @@ for i in range(1, timestable+1):
     # generate the timestable for each iteration
     for j in range(1,13):
         print(j, "x", i, "=", j * i) 
+
+# COMMAND ----------
+
+# DBTITLE 1,While
+count = 1
+while count <10:
+	print (count)
+	count += 1
+
+
+# COMMAND ----------
+
+# DBTITLE 1,Password Check
+password = "letmein"
+entry = False
+
+while entry != password:
+	entry = input("please enter your password")
+    
+print("Welcome in!")
+
+# COMMAND ----------
+
+# DBTITLE 1,Infine Loop
+#while True:
+		#print("This goes on forever")
+
+
+# COMMAND ----------
+
+# DBTITLE 1,break - continue 
+guess = ""
+
+while guess != "Rumplstiltskin":
+    guess = input('Guess my name')
+print("Correct")
+
+# COMMAND ----------
+
+guess = ""
+
+while True:
+    guess = input('Guess my name')
+    if guess == "Rumplstiltskin":
+        print("Correct")
+        break
+    print("Wrong!")
+
+# COMMAND ----------
+
+guess = ""
+
+while True:
+    guess = input('Guess my name')
+    if guess != "Rumplstiltskin":
+        print("Wrong!")
+        continue
+    print("Correct")
+    break
+        
+
+# COMMAND ----------
+
+# DBTITLE 1,Number Add
+number = 1
+total = 0
+
+while number != 0:
+    number = int(input("enter a number"))
+    total += number
+print(total)
