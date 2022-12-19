@@ -24,7 +24,7 @@ print(my_list)
 
 # COMMAND ----------
 
-new_list = [“s”] + my_list
+new_list = ["s"] + my_list
 print(new_list)
 
 # COMMAND ----------
@@ -127,5 +127,9 @@ my_string = "Hello World"
 print(my_string[0])
 
 print(my_string[7:])
+
+
+
+# COMMAND ----------
 
 my_string[2]= "C"
