@@ -50,7 +50,7 @@ print(total)
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC Alternately if the inputted value will alway be treated As a number then cast at the point of input
+# MAGIC Alternately if the inputted value will alway be treated as a number then cast at the point of input
 
 # COMMAND ----------
 
