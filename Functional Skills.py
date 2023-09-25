@@ -36,9 +36,9 @@ print (answer)
 # DBTITLE 1,Variable Scope
 # Global Variable
 global variableName
-variableName = ”value”
+variableName = "value"
 
-def mySubroutine:	
+def mySubroutine():	
     #local Variable
-    variableName = “Value”
+    variableName = "Value"
 
