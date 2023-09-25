@@ -35,7 +35,7 @@ print (answer)
 
 # DBTITLE 1,Variable Scope
 # Global Variable
-global variableName
+#global variable
 variableName = "value"
 
 def mySubroutine():	
